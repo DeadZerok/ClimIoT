@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
 @import "tailwindcss";
+
 
 :root {
   --background: #F0F8FA;
@@ -13,9 +15,8 @@
   --color-verde: #B2D8BB;
   --color-amarillo: #FFEE93;
 
-  --font-primary: "poppins", sans-serif;
-  --font-secundary: "lato", sans-serif;
-
+  --font-primary: "Poppins", sans-serif;
+  --font-secundary: "Lato", sans-serif;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -33,13 +34,16 @@
       transform: scale(1.20);
       background-color: #B2D8BB;
       border-radius: 25px;
-      
     }
+  }
+
+  .background-card {
+    background: linear-gradient(135deg, var(--color-azul) 0%, var(--color-verde) 100%);
   }
 }
 
-  body {
-    background: var(--background);
-    color: var(--foreground);
-    font-family: var(--font-primary);
-  }
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-primary);
+}
