@@ -20,14 +20,14 @@ export const dataCard = [
     },
     {
         id: "3",
-        title: "punto rosio",
+        title: "Punto rosio",
         dato:"11.1 C",
         icon: <WiRaindrops  className="scale-300" color="#6DBAFC"/>,
         subtitle: "25 Ago, 20:05",
     },
     {
         id: "4",
-        title: "temperatura ambiente",
+        title: "índice de calor",
         dato: "26.5 C",
         icon: <TbTemperatureSun color="#FC6D6D"/>,
         subtitle: " 25 Ago, 20:05",
