@@ -1,6 +1,6 @@
 import Introduction from "@/components/introduction";
-import Navbar from "@/components/Navbar";
-import Image from "next/image";
+import SectionDatos from "@/components/sectionDatos";
+
 
 export default function Home() {
   return (
@@ -13,11 +13,10 @@ export default function Home() {
 
       </section>
 
-      <section
-        id="datos"
-        className="h-screen  snap-start bg-amber-400"
-      >
-        <h1 className="text-5xl font-bold text-white ">Datos</h1>
+      <section id="datos" className="h-screen  snap-start ">
+        
+        <SectionDatos />
+        
       </section>
 
     </main>
