@@ -27,7 +27,8 @@ export const dataCard = [
     },
     {
         id: "4",
-        title: "índice de calor",
+        title: "Sensacion Termica",
+                
         dato: "26.5 C",
         icon: <TbTemperatureSun color="#FC6D6D"/>,
         subtitle: " 25 Ago, 20:05",
