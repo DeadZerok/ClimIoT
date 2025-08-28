@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import InfoCard from "./infoCards";
-import { database } from "@/lib/firebase"; // 👈 ajusta la ruta
+import { database } from "@/lib/firebase"; 
 import { ref, onValue } from "firebase/database";
 
 // Iconos
@@ -67,7 +67,7 @@ const DashBoard = () => {
             }
         });
 
-        return () => unsubscribe(); // limpiar listener al desmontar
+        return () => unsubscribe();
     }, []);
 
     return (

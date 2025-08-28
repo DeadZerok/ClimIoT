@@ -31,19 +31,21 @@ export const metadata: Metadata = {
     'punto de rocío',
     'sensación térmica',
     'IoT',
-    'ClimIoT'
+    'ClimIoT', "desarrollador de software", "IoT", "Node.js", "JavaScript", "Next.js", "Tailwind", "React"
   ],
 
   openGraph: {
     title: 'ClimIoT',
     description: 'Control de temperatura, humedad y análisis de datos en tiempo real.',
+
     url: 'https://tusitio.com',
     siteName: 'ClimIoT',
     images: [
       {
-        url: '/image.jpg',
+        url: 'https://climiot.netlify.app/img/image.jpg',
         width: 1200,
-        height: 630
+        height: 630,
+        alt: "Iván Varona | Dev",
       }
     ],
     locale: 'es_ES',
@@ -54,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'ClimIoT',
     description: 'Control de temperatura, humedad y análisis de datos en tiempo real.',
-    images: ['/og-image.png']
+    images: ["https://climiot.netlify.app/img/image.jpg"]
   },
   robots: {
     index: true,
